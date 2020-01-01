@@ -1,12 +1,13 @@
 # oh-my-zsh
 Setup for ohmyzsh
 
-## Before start on Windows, it's required enable "Windows subsystem for Linux and install Linux system 
+## Before start on Windows, it's required to enable "Windows subsystem for Linux and install a Linux system 
 
 * Open PowerShell and type
 
 ```Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux```
 
+* Accept the change and restart the OS
 * Install Ubuntu from Microsoft Store
 
 <p align="left">
@@ -23,7 +24,8 @@ Setup for ohmyzsh
 * Change the ZSH_THEME to "spaceship"
 * In the end of the .zshrc file add he following lines
 
-```SPACESHIP_PROMPT_ORDER=(
+```
+SPACESHIP_PROMPT_ORDER=(
   user          # Username section
   dir           # Current directory section
   host          # Hostname section
@@ -45,7 +47,8 @@ SPACESHIP_CHAR_SUFFIX=" "
 * Install [zplugin](https://github.com/zdharma/zplugin#installation)
 * After zplugin installation, the .zshrc file should have this lines added automatically
 
-```### Added by Zplugin's installer
+```
+### Added by Zplugin's installer
 source "$HOME/.zplugin/bin/zplugin.zsh"
 autoload -Uz _zplugin
 (( ${+_comps} )) && _comps[zplugin]=_zplugin
@@ -54,7 +57,8 @@ autoload -Uz _zplugin
 
 * To install plugins through zplugin, add the pluglin in the end of the file .zshrc following the sintaxy
 
-```zplugin light zsh-users/zsh-autosuggestions
+```
+zplugin light zsh-users/zsh-autosuggestions
 zplugin light zsh-users/zsh-completions
 zplugin light zdharma/fast-syntax-highlighting
 ```
