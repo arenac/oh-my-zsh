@@ -20,7 +20,7 @@ Setup for ohmyzsh
 
 * Install it through curl [zsh](https://github.com/ohmyzsh/ohmyzsh)
 * Theme installation [spaceship](https://github.com/denysdovhan/spaceship-prompt)
-* Open the .zshrc file ```code ~/.zshrc````
+* Open the .zshrc file ```code ~/.zshrc```
 * Change the ZSH_THEME to "spaceship"
 * In the end of the .zshrc file add he following lines
 
@@ -45,7 +45,7 @@ SPACESHIP_CHAR_SUFFIX=" "
 ```
 
 * Install [zplugin](https://github.com/zdharma/zplugin#installation)
-* After zplugin installation, the .zshrc file should have this lines added automatically
+* After zplugin installation, the .zshrc file should have this lines added automatically in the end
 
 ```
 ### Added by Zplugin's installer
