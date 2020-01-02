@@ -67,4 +67,4 @@ zplugin light zdharma/fast-syntax-highlighting
 
 The Ubunto app installed runs zsh but the icon feature doesn't work well on Windows. The good news is if you are a VS Code user, the icons work well. The only requirement is to install the Remote - WSL plugin and set the WSL bash as default in VS Code.
 
-**If you need to use a bash command other than the Ubunto app default, you need to install you application inside the Ubunto app, for example NodeJS which is not installed by default. Lastly, you can also update and upgrade almost every app installed inside Ubunto app.**
+**If you need to use a bash command other than the Ubunto app default, you need to install your application inside the Ubunto app, for example NodeJS which is not installed by default. Lastly, you can also update and upgrade almost every app installed inside Ubunto app.**
