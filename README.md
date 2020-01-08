@@ -8,11 +8,9 @@ Setup for ohmyzsh
 ```Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux```
 
 * Accept the change and restart the OS
-* Install Ubuntu from Microsoft Store
+* Install Windows Subsystem for Linux (you can use another package manager other than Chocolatey)
 
-<p align="left">
-  <img src="./ubuntu.PNG" />
-</p>
+```choco install wsl-ubuntu-1804```
 
 * Afer install it, do the next steps using the Ubunto terminal
 
