@@ -20,6 +20,7 @@ Setup for ohmyzsh
 * Install it through curl [zsh](https://github.com/ohmyzsh/ohmyzsh)
 * Theme installation [spaceship](https://github.com/denysdovhan/spaceship-prompt)
 * Open the .zshrc file ```code ~/.zshrc```
+* If you do not have permission to change the file run ```sudo chmod 777 ~/.zshcr```
 * Change the ZSH_THEME to "spaceship"
 * In the end of the .zshrc file add he following lines
 
