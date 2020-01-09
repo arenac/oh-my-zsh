@@ -16,6 +16,7 @@ Setup for ohmyzsh
 
 ## Ohmyzsh installation and customization
 
+* Run ```sudo apt-get update && apt-get upgrade```
 * Install it through curl [zsh](https://github.com/ohmyzsh/ohmyzsh)
 * Theme installation [spaceship](https://github.com/denysdovhan/spaceship-prompt)
 * Open the .zshrc file ```code ~/.zshrc```
